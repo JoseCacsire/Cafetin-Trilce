@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navCategoriesAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/icon_grid"
+        android:title="Categorias" />
+    <item
+        android:id="@+id/navPedidosAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_pedido"
+        android:title="Pedidos" />
+    <item
+        android:id="@+id/navUserAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/icon_user"
+        android:title="Administrador" />
+</menu>

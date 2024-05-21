@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_cart"
+    android:background="@color/main_user_background"
+    tools:context=".Cart">
+
+    <TextView
+        android:id="@+id/txtCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="TU CARRITO"
+        android:textColor="@color/name_categories"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="start|top" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:listitem="@layout/fila_carrito" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="200dp"
+        android:background="@drawable/background_cart"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total a pagar : "
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/txtMontoPagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cupón(opcional)"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black">
+            </TextView>
+            <EditText
+                android:id="@+id/edtCupon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="xxxx-xxxx-xxxx-xxxx"
+                android:paddingStart="10dp"
+                android:inputType="text"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="67dp"
+                android:background="@drawable/inputs"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnPagar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white"
+            android:layout_height="55dp"
+            android:text="Solicitar Pedido">
+
+        </Button>
+    </LinearLayout>
+</FrameLayout>

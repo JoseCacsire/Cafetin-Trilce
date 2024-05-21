@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.FormUpdateProducto">
+
+    <ImageButton
+        android:id="@+id/btnBackUpdate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="start|top"
+        android:background="@color/main_user_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_back" />
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Actualizar Poducto"
+        android:textColor="@color/name_categories"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center|top" />
+    <ImageView
+        android:id="@+id/iwLoadImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/border_radius"
+        android:layout_gravity="start"
+        android:src="@drawable/icon_camera" />
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/black"
+        android:text="Cargar Imagen"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center|start"
+        android:layout_marginBottom="120dp"
+        android:text="Nombre"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/inpNameProduct"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center|start"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="ingrese nombre"
+        android:paddingStart="10dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="center|start"
+        android:text="Precio"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/inpPriceProduct"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:hint="ingrese precio"
+        android:background="@drawable/inputs"
+        android:paddingStart="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/titleStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center|start"
+        android:text="Stock"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/inpStockcProducto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="258dp"
+        android:ems="10"
+        android:hint="ingrese el stock"
+        android:paddingStart="10dp"
+        android:background="@drawable/inputs"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="125dp"
+        android:layout_gravity="center|start"
+        android:text="Descripión"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/inpDescripcionProducto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="ingrese descripcion"
+        android:inputType="numberDecimal"
+        android:paddingStart="10dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/black"
+        android:text="Actualizar Producto"
+        android:textSize="25dp" />
+
+</FrameLayout>

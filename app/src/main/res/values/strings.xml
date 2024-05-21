@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">appTrilce</string>
+    <string name="welcome_subtitle">Evita Colas con Pedidos Adelantados\n</string>
+    <string name="welcome_text">Únete ahora y simplifica tu rutina de pedidos para disfrutar de tus refrigerios sin complicaciones.</string>
+    <string name="welcome_title">Optimiza tu \nExperiencia en Trilce</string>
+    <string name="formulary_title">Registrarse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="price_product">S/ 9.50</string>
+    <string name="description_product">Descubre nuestra hamburguesa premium con carne jugosa a la parrilla, lechuga fresca, cebolla, tomate, queso derretido y pepinillos crujientes.</string>
+    <string name="product_cant">1</string>
+    <string name="button_add_cart">Agregar al Carrito</string>
+
+
+    <string name="tittle_metodo_pago">Pagar</string>
+    <string name="subtittle_metodo_pago">Método de Pago</string>
+    <string name="info_pago">Tus datos de Pago</string>
+    <string name="tittle_titular">Titular de la tarjeta</string>
+    <string name="hint_titular">Ej. Abad Sarmiento Diego Alexis</string>
+    <string name="tittle_num">Numero de la tarjeta</string>
+    <string name="num_ej">XXXX XXXX XXXX XXXX</string>
+    <string name="tittle_fecha_vencimiento">Fecha de vencimiento</string>
+    <string name="hint_fecha">MM/YYYY</string>
+    <string name="tittle_cvv">CVV</string>
+    <string name="hint_cvv">Ej. 3103</string>
+    <string name="tittle_monto">Monto Total</string>
+    <string name="price_total">S/ 15.30 PEN</string>
+    <string name="tittle_detalle">Ver Detalles</string>
+    <string name="button_text">Pagar ahora</string>
+    <string name="name_product">&quot;ProductName&quot;</string>
+</resources>
+
+

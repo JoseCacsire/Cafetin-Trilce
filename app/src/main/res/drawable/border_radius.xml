@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/background_camera"/>
+    <corners android:radius="20dp" /> <!-- Ajusta el radio de los bordes según sea necesario -->
+</shape>

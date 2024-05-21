@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/main_background"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/img_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:src="@drawable/logo"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAccessibility="no" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Comenzar"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:id="@+id/linear_content"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_get_started"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="18dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:paddingBottom="16dp"
+            android:id="@+id/txt_welcome_title"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/welcome_title"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_welcome_subtitle"
+            android:layout_width="wrap_content"
+            android:text="@string/welcome_subtitle"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="70dp" />
+
+        <TextView
+            android:id="@+id/txt_welcome_description"
+            android:text="@string/welcome_text"
+            android:textColor="@color/white_light"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

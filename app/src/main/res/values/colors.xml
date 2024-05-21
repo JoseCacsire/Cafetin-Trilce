@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light">#D7D7D7</color>
+    <color name="main_background">#F5744E</color>
+    <color name="main_user_background">#FEF1EE</color>
+    <color name="name_categories">#5E5A5A</color>
+    <color name="icons_background">#F46338</color>
+    <color name="background_camera">#4D5E5A5A</color>
+    <color name="custom_indicator_color">#F8E4E4</color>
+    <color name="selected_custom_color">#F5744E</color>
+    <color name="blue">#3F51B5</color>
+
+</resources>

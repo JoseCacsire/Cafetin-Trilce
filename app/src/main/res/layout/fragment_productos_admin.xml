@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_admin_producto"
+    android:background="@color/main_user_background"
+    tools:context=".Admin.ProductosAdmin">
+
+    <ImageButton
+        android:id="@+id/btnBackUpdateProduct"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="start|top"
+        android:background="@color/main_user_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_back" />
+
+    <TextView
+        android:id="@+id/txtProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="BEBIDAS"
+        android:textColor="@color/name_categories"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center|top" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProductosAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="25dp"
+        tools:listitem="@layout/fila_products" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:maxImageSize="40dp"
+        app:tint="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="30dp"
+        android:src="@android:drawable/ic_input_add" />
+
+
+</FrameLayout>

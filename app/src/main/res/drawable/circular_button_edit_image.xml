@@ -1,0 +1,10 @@
+<!-- res/drawable/circular_button_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:color="@android:color/black" android:width="4dp" /> <!-- Borde blanco de 4dp -->
+            <solid android:color="@android:color/black" /> <!-- Fondo transparente -->
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo: Círculo con borde -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/black" />
+            <size android:width="40dp" android:height="40dp" />
+            <stroke android:color="@android:color/black" android:width="10dp" /> <!-- Borde blanco de 4dp -->
+        </shape>
+    </item>
+
+    <!-- Icono: Vector -->
+    <item android:drawable="@drawable/icon_camera_edit" />
+</layer-list>
